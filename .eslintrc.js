@@ -23,9 +23,5 @@ module.exports = {
       typescript: {}
     }
   },
-  plugins: ['react', 'react-hooks', '@typescript-eslint', 'prettier'],
-  rules: {
-    'no-extra-semi': 'off',
-    '@typescript-eslint/no-extra-semi': 'error'
-  }
+  plugins: ['react', 'react-hooks', '@typescript-eslint', 'prettier']
 }
