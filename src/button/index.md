@@ -32,9 +32,8 @@ toc: content
 ## 代码演示
 
 <code src="./demo/basic.tsx">按钮类型</code>
+<code src="./demo/size.tsx">不同大小</code>
 
-<!-- <code src="./demo/DangerButton.tsx">危险按钮</code> -->
-<!-- <code src="./demo/size.tsx">不同大小</code> -->
 <!-- <code src="./demo/ShapeButton.tsx">不同形状</code> -->
 <!-- <code src="./demo/DisableButton.tsx">禁用类型</code> -->
 <!-- <code src="./demo/LoadingButton.tsx">loading</code> -->
