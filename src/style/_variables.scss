@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -74,7 +76,7 @@ $h6-font-size: $font-size-base !default;
 // 链接
 $link-color: $primary !default;
 $link-decoration: none !default;
-$link-hover-color: color.adjust($link-color, 15%) !default;
+$link-hover-color: color.adjust($link-color, $lightness: -15%) !default;
 $link-hover-decoration: underline !default;
 
 // body
@@ -227,7 +229,7 @@ $input-border-radius: $border-radius !default;
 $input-border-radius-lg: $border-radius-lg !default;
 $input-border-radius-sm: $border-radius-sm !default;
 $input-focus-bg: $input-bg !default;
-$input-focus-border-color: color.adjust($primary, 25%) !default;
+$input-focus-border-color: color.adjust($primary, $lightness: 25%) !default;
 $input-focus-width: 0.2rem !default;
 $input-focus-color: $input-color !default;
 $input-focus-shadow-color: rgba($primary, 0.25) !default;
