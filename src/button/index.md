@@ -35,7 +35,6 @@ toc: content
 <code src="./demo/size.tsx">不同大小</code>
 <code src="./demo/disabled.tsx">禁用状态</code>
 
-<!-- <code src="./demo/ShapeButton.tsx">不同形状</code> -->
 <!-- <code src="./demo/LoadingButton.tsx">loading</code> -->
 
 ## API
