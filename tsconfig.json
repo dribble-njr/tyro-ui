@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "tyro-ui": ["src/index.ts"],
+      "tyro-ui/*": ["src/*", "*"]
+    },
     "target": "esnext",
     "module": "commonjs",
     "jsx": "react",
