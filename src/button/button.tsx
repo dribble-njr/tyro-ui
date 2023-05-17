@@ -56,8 +56,7 @@ const Button: React.FC<ButtonProps> = (props) => {
   const classes = classNames('tyro-btn', className, {
     [`tyro-btn-${type}`]: type,
     [`tyro-btn-${shape}`]: shape,
-    [`tyro-btn-${size}`]: size,
-    [`tyro-disabled`]: disabled
+    [`tyro-btn-${size}`]: size
   })
 
   if (type === 'link' && href) {
