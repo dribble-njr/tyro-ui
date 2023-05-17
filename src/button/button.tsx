@@ -59,6 +59,7 @@ const Button: React.FC<ButtonProps> = (props) => {
       e.preventDefault()
       return
     }
+    // eslint-disable-next-line @typescript-eslint/no-extra-semi
     ;(
       onClick as React.MouseEventHandler<HTMLButtonElement | HTMLAnchorElement>
     )?.(e)
