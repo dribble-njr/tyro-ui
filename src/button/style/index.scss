@@ -22,7 +22,7 @@
   cursor: pointer;
   transition: $btn-transition;
 
-  &.disabled,
+  &:disabled,
   &[disabled] {
     cursor: not-allowed;
     opacity: $btn-disabled-opacity;
@@ -93,9 +93,13 @@
   }
 
   &:disabled,
-  &.disabled {
+  &[disabled] {
     color: $btn-link-disabled-color;
-    pointer-events: none;
+    text-decoration: none;
+
+    > * {
+      pointer-events: none;
+    }
   }
 }
 
