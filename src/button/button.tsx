@@ -44,7 +44,7 @@ const Button: React.FC<ButtonProps> = (props) => {
     disabled,
     className,
     children,
-    size = 'middle',
+    size = '',
     htmlType = 'button',
     href,
     loading = false,
