@@ -67,12 +67,16 @@ const Button: React.FC<ButtonProps> = (props) => {
 
   const classes = classNames('tyro-btn', className, {
     [`tyro-btn-${type}`]: type,
-    [`tyro-btn-${size}`]: size
+    [`tyro-btn-${size}`]: size,
+    [`tyro-btn-loading`]: loading
   })
+
+  const iconNode = loading ? 'loading' : ''
 
   if (type === 'link' && href) {
     return (
       <a href={href} className={classes} onClick={handleClick} {...rest}>
+        {iconNode}
         {children}
       </a>
     )
@@ -86,6 +90,7 @@ const Button: React.FC<ButtonProps> = (props) => {
       disabled={disabled}
       onClick={handleClick}
     >
+      {iconNode}
       {children}
     </button>
   )

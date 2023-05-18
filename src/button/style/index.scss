@@ -120,3 +120,8 @@
     $btn-border-radius-sm
   );
 }
+
+.tyro-btn-loading {
+  opacity: 0.65;
+  cursor: default !important;
+}

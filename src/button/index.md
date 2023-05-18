@@ -34,8 +34,7 @@ toc: content
 <code src="./demo/basic.tsx">按钮类型</code>
 <code src="./demo/size.tsx">不同大小</code>
 <code src="./demo/disabled.tsx">禁用状态</code>
-
-<!-- <code src="./demo/LoadingButton.tsx">loading</code> -->
+<code src="./demo/loading.tsx">加载状态</code>
 
 ## API
 
