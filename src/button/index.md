@@ -1,10 +1,13 @@
 ---
 description: tyro ui Button 按钮
+title: Button 按钮
 group:
   title: 通用
   order: 1
 keywords: ['tyro ui', 'Button', '按钮']
 toc: content
+demo:
+  cols: 2
 ---
 
 # Button 按钮
@@ -40,9 +43,9 @@ toc: content
 
 按钮的属性说明如下：
 
-| 属性     | 说明                                                      | 类型                                                               | 默认值    |
-| -------- | --------------------------------------------------------- | ------------------------------------------------------------------ | --------- | --- |
-| disabled | 设置按钮禁用状态                                          | `boolean`                                                          | `false`   |     |
+| 属性     | 说明                                                      | 类型                                                               | 默认值    | 版本 |
+| -------- | --------------------------------------------------------- | ------------------------------------------------------------------ | --------- | ---- |
+| disabled | 设置按钮禁用状态                                          | `boolean`                                                          | `false`   |      |
 | loading  | 设置按钮加载状态                                          | `boolean`                                                          | `false`   |
 | type     | 设置按钮类型                                              | `primary` \| `default` \| `dashed` \| `text` \| `danger` \| `link` | `defalut` |
 | size     | 设置按钮大小                                              | `large` \| `middle` \| `small`                                     | `middle`  |
