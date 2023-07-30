@@ -73,7 +73,7 @@ devDependencies:
     specifier: ^4.6.0
     version: 4.6.0(eslint@8.40.0)
   husky:
-    specifier: ^8.0.0
+    specifier: ^8.0.3
     version: 8.0.3
   jest:
     specifier: ^29.5.0
