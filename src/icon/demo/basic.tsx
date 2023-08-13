@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from 'tyro-ui'
-import { AccountBookIcon } from 'tyro-ui'
+import { AccountBookIcon, LoadingIcon } from 'tyro-ui'
 
 const App: React.FC = () => {
   return (
@@ -13,6 +13,7 @@ const App: React.FC = () => {
       </Icon>
 
       <AccountBookIcon />
+      <LoadingIcon />
     </>
   )
 }

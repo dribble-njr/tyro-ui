@@ -1,0 +1,5 @@
+import { createIcon } from '../create-icon'
+
+export const BorderlessTableIcon = createIcon({
+  d: 'M117 368h231v64H117zM676 368h241v64H676zM412 368h200v64H412zM412 592h200v64H412zM676 592h241v64H676zM117 592h231v64H117zM412 432V179h-64v666h64V592zM676 368V179h-64v666h64V432z'
+})
