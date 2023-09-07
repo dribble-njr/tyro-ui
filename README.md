@@ -2,7 +2,7 @@
 
 ## 🔨 开发
 
-创建组件
+快速创建组件
 
 ```shell
 node createComponent.js <componentName>
