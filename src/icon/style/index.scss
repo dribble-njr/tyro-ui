@@ -1,0 +1,21 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.tyro-icon-loading {
+  display: inline-block;
+  -webkit-animation: rotate 1s infinite linear;
+  animation: rotate 1s infinite linear;
+
+  &::before {
+    display: inline-block;
+    -webkit-animation: rotate 1s infinite linear;
+    animation: rotate 1s infinite linear;
+  }
+}
