@@ -428,3 +428,5 @@ export {
   ZoomInIcon,
   ZoomOutIcon
 } from './icon'
+
+export { default as LoadMore } from './load-more'
