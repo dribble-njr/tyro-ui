@@ -5,7 +5,7 @@
 快速创建组件
 
 ```shell
-node createComponent.js <componentName>
+pnpm run create MyComponent
 ```
 
 ## ✨ 特性

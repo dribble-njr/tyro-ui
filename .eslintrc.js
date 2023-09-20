@@ -11,6 +11,9 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended'
   ],
+  rules: {
+    'react/react-in-jsx-scope': 'off'
+  },
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'
